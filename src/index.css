@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+}
+.stop-watch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  padding: 30px;
+  background-color: white;
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: rgba(84, 84, 90, 0.916);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.76) ;
+  margin-bottom: 25px;
+}
+.control-btns button{
+  font-size: 1.5rem;
+  font-weight:bold ;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+.start-btn{
+  background-color: rgb(42, 211, 42);
+}
+.start-btn:hover{
+  background-color:green ;
+}
+.reset-btn{
+  background-color: rgb(87, 87, 228);
+}
+.reset-btn:hover{
+  background-color: blue;
+}
+.stop-btn{
+  background-color: rgb(243, 10, 10);
+}
+.stop-btn:hover{
+  background-color: rgb(183, 4, 4);
+}
+
